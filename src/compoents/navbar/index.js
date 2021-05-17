@@ -16,13 +16,7 @@ export default function NavBar() {
         <li className="nav-item slam-left">
           <a href="#">Vaccine Notifier</a>
         </li>
-        <li className="nav-item">
-          <a className="contact" href="#">
-            <Avatar>
-              <ImageIcon />
-            </Avatar>
-          </a>
-        </li>
+       
       </ul>
     </div>
   );
