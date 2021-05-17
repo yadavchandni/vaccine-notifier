@@ -1,0 +1,38 @@
+/* style={{
+    
+    paddingLeft: "3%",
+    paddingTop: "2%",
+    position: "relative",
+    color: " #3f51b5",
+  }} */
+
+  .input-design{
+    width: 95%;
+    padding-left: 3%;
+    position: relative;
+    color: #3f51b5;
+    padding-top:3% ;
+  }
+  .input-checkbox-commons{
+    padding-left: 4%;
+    padding-top: 2%;
+  }
+
+  .input-polling-interval-main{
+    width: 95%;
+    padding-left: 3%;
+    position: relative;
+    color: #3f51b5;
+    padding-top:3% ;
+  }
+  /* ageCheckBoxMain */
+
+  .ageCheckBoxMain{
+    display: grid;
+  }
+
+  .button{
+    float: left;
+    margin-left: 5%;
+
+    }

@@ -1,0 +1,226 @@
+.main-loader {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    /* z-index:9999; */
+    overflow: hidden;
+}
+
+.loader,
+.loader-span {
+    width: 3em;
+    height: 3em;
+    border: 0.25em solid white;
+    font-size: 10px;
+    border-radius: 1em;
+    position: absolute;
+    mix-blend-mode: screen;
+}
+
+.loader {
+    background-color: gold;
+    animation: rotating 2s linear infinite;
+}
+
+@keyframes rotating {
+    to {
+        transform: rotate(1turn);
+    }
+}
+
+.loader-span {
+    animation: de-rotating 4s linear infinite;
+}
+
+@keyframes de-rotating {
+    from, to {
+        transform: rotate(0deg) scale(0.5);
+    }
+
+    50% {
+        transform: rotate(-180deg) scale(1.2);
+    }
+}
+
+.loader-span:nth-child(1) {
+    top: 2em;
+    left: 2em;
+    background-color: dodgerblue;
+}
+
+.loader-span:nth-child(2) {
+    top: -2em;
+    left: 2em;
+    background-color: hotpink;  
+}
+
+.loader-span:nth-child(3) {
+    top: 2em;
+    left: -2em;
+    background-color: mediumpurple;
+}
+
+.loader-span:nth-child(4) {
+    top: -2em;
+    left: -2em;
+    background-color: limegreen;
+}
+
+
+/* *** Loader dimension *** */
+.loading-screen {
+  position: relative;
+  height: 500px;
+}
+
+
+
+/* *** Spin Animation *** */
+@keyframes spin {
+  0% {
+    top: 0;
+    transform: rotate(0deg);
+  }
+  50% {
+    top: -4em;
+    transform: rotate(-180deg);
+  }
+  100% {
+    top: 0;
+    transform: rotate(-360deg);
+  }
+}
+
+.letter {
+  position: relative;
+  top: -webkit-calc(50% - 60px);
+  top: calc(50% - 60px);
+  text-shadow: 0px 0px 3px white;
+  font-size: 20px;
+}
+
+.letter:nth-child(1) {
+  -webkit-animation: fade 2s infinite 200ms;
+  animation: fade 2s infinite 200ms;
+}
+.letter:nth-child(2) {
+  -webkit-animation: fade 2s infinite 400ms;
+  animation: fade 2s infinite 400ms;
+}
+.letter:nth-child(3) {
+  -webkit-animation: fade 2s infinite 600ms;
+  animation: fade 2s infinite 600ms;
+}
+.letter:nth-child(4) {
+  -webkit-animation: fade 2s infinite 800ms;
+  animation: fade 2s infinite 800ms;
+}
+.letter:nth-child(5) {
+  -webkit-animation: fade 2s infinite 1000ms;
+  animation: fade 2s infinite 1000ms;
+}
+.letter:nth-child(6) {
+  -webkit-animation: fade 2s infinite 1200ms;
+  animation: fade 2s infinite 1200ms;
+}
+.letter:nth-child(7) {
+  -webkit-animation: fade 2s infinite 1400ms;
+  animation: fade 2s infinite 1400ms;
+}
+
+/* *** Letter Fade Animation *** */
+@-webkit-keyframes fade {
+  50% {
+    opacity: 0.02;
+  }
+}
+
+@keyframes fade {
+  50% {
+    opacity: 0.02;
+  }
+}
+
+/* loader heading */
+
+.laoder-heading{
+    padding-top: 18%;
+    color: white;
+}
+
+/* *** Loader dimension *** */
+.loading-screen {
+  position: relative;
+  height: 500px;
+}
+
+
+
+/* *** Spin Animation *** */
+@keyframes spin {
+  0% {
+    top: 0;
+    transform: rotate(0deg);
+  }
+  50% {
+    top: -4em;
+    transform: rotate(-180deg);
+  }
+  100% {
+    top: 0;
+    transform: rotate(-360deg);
+  }
+}
+
+.letter {
+  position: relative;
+  top: -webkit-calc(50% - 60px);
+  top: calc(50% - 60px);
+  text-shadow: 0px 0px 3px white;
+  font-size: 20px;
+}
+
+.letter:nth-child(1) {
+  -webkit-animation: fade 2s infinite 200ms;
+  animation: fade 2s infinite 200ms;
+}
+.letter:nth-child(2) {
+  -webkit-animation: fade 2s infinite 400ms;
+  animation: fade 2s infinite 400ms;
+}
+.letter:nth-child(3) {
+  -webkit-animation: fade 2s infinite 600ms;
+  animation: fade 2s infinite 600ms;
+}
+.letter:nth-child(4) {
+  -webkit-animation: fade 2s infinite 800ms;
+  animation: fade 2s infinite 800ms;
+}
+.letter:nth-child(5) {
+  -webkit-animation: fade 2s infinite 1000ms;
+  animation: fade 2s infinite 1000ms;
+}
+.letter:nth-child(6) {
+  -webkit-animation: fade 2s infinite 1200ms;
+  animation: fade 2s infinite 1200ms;
+}
+.letter:nth-child(7) {
+  -webkit-animation: fade 2s infinite 1400ms;
+  animation: fade 2s infinite 1400ms;
+}
+
+/* *** Letter Fade Animation *** */
+@-webkit-keyframes fade {
+  50% {
+    opacity: 0.02;
+  }
+}
+
+@keyframes fade {
+  50% {
+    opacity: 0.02;
+  }
+}
